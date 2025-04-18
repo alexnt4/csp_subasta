@@ -1,0 +1,12 @@
+% Equal Prices Test Case
+
+N = 3;  % 3 generators
+M = 2;  % 2 hours
+
+demand = [200, 300];  % Demand for each hour
+
+capacity = [| 100, 150   % Capacity of generator 1 for each hour
+            | 120, 300   % Capacity of generator 2 for each hour
+            | 150, 200 |]; % Capacity of generator 3 for each hour
+
+price = [10, 5, 15];  

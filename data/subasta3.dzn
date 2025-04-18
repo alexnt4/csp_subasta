@@ -1,0 +1,14 @@
+% Larger example data for Electricity Market Auction
+
+N = 5;  % 5 generators
+M = 8;  % 8 hours
+
+demand = [250, 350, 400, 500, 450, 380, 320, 280];  % Demand for each hour
+
+capacity = [| 150, 180, 200, 180, 160, 150, 140, 130   % Capacity of generator 1 for each hour
+            | 120, 140, 150, 180, 190, 170, 150, 130   % Capacity of generator 2 for each hour
+            | 200, 220, 230, 240, 220, 200, 180, 170   % Capacity of generator 3 for each hour
+            | 100, 120, 140, 160, 150, 130, 110, 100   % Capacity of generator 4 for each hour
+            | 180, 200, 210, 220, 210, 190, 170, 160 |]; % Capacity of generator 5 for each hour
+
+price = [9, 11, 13, 8, 12];  % Selling prices for generators 1-5
